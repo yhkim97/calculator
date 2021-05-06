@@ -7,7 +7,7 @@ class Calculator_s extends Calculator_m{
   }
 
   public int Square(double a, double b) {
-    int result = Math.pow(a,b);
+    double result = Math.pow(a,b);
     return result;
   }
 }
